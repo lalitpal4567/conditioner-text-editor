@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top-left-bar bar">
+        <img src="logo.svg" alt="" height="37px" width="37px">
+    </div>
+    <div class="topbar bar">
+        <div class="tool-container">
+            <div class="tools">
+                <img id="copy" src="copy.svg" alt="">
+                <img id="cut" src="cut.svg" alt="">
+                <img id="paste" src="paste.svg" alt="">
+            </div>
+            <label for="">Clipboard</label>
+        </div>
+        <div class="tool-container">
+            <select name="" id="font-family" class="selection"></select>
+            <div class="tools">
+                <img id="bold" src="bold.svg" alt="">
+                <img id="italic" src="italic.svg" alt="">
+                <img id="underline" src="underline.svg" alt="">
+            </div>
+            <label for="">Font style</label>
+        </div>
+        <div class="tool-container">
+            <div class="tools">
+                <img id="highlighter1" src="highlighter.svg" alt="">
+                <img id="fontColor1" src="fontColor.svg" alt="">
+            </div>
+            <label for="">Font color</label>
+        </div>
+        <div class="tool-container">
+            <div class="tools">
+                <input id="font-size" type="number">
+                <img id="largeFont1" src="largeFont.svg" alt="">
+                <img id="smallFont1" src="smallFont.svg" alt="">
+            </div>
+            <label for="">Font size</label>
+        </div>
+        <div class="tool-container">
+            <div class="tools">
+                <img id="subscript1" src="subscript.svg" alt="">
+                <img id="superscript1" src="superscript.svg" alt="">
+            </div>
+            <label for="">Script</label>
+        </div>
+        <div class="tool-container">
+            <div class="tools">
+                <img id="justifyLeft" src="alignLeft.svg" alt="">
+                <img id="justifyCenter" src="alignCenter.svg" alt="">
+                <img id="justifyRight" src="alignRight.svg" alt="">
+            </div>
+            <label for="">Paragraph</label>
+        </div>
+        <div class="tool-container">
+            <div class="tools">
+                <select name="" id="font-size1">
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    <option value="">7</option>
+                    <option value="">8</option>
+                    <option value="">9</option>
+                    <option value="">10</option>
+                    <option value="">11</option>
+                    <option value="">12</option>
+                    <option value="">13</option>
+                </select>
+                <img id="letterSpacing1" src="letterSpacing.svg" alt="">
+                <img id="letterSpacing2" src="letterSpacing.svg" alt="" height="28px" width="28px" style="margin-top: 8px;">
+            </div>
+            <label for="">Spacing</label>
+        </div>
+    </div>
+    <div class="sidebar bar">
+        <div class="side-tools">
+            <label for="">Mode</label>
+            <img src="screenMode.svg" alt="">
+        </div>
+        <div class="side-tools">
+            <label for="">Search</label>
+            <img src="searchBar.svg" alt="">
+        </div>
+        <div class="side-tools">
+            <label for="">Reverse</label>
+            <img src="reverse.svg" alt="">
+        </div>
+    </div>
+    <div class="editor-container" contenteditable="true"></div>
+    <div class="text-info">
+        <div>Letters: </div>
+        <div>Words: </div>
+        <div>Column: </div>
+        <div>Line: </div>
+    </div>
+
+    <script src="code.js">
+    </script>
+</body>
+</html>
