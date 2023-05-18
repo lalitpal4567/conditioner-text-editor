@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+body{
+    background-color: rgb(220, 220, 220);
+}
+.bar{
+    transition: all;
+    transition-duration: .2s;
+    transition-timing-function: ease;
+}
+.sidebar{
+    height: 91.5%;
+    width: 150px;
+    border: 2px solid black;
+    position:absolute;
+    top: 39px;
+    left: -80px;
+    background-color: rgb(63, 145, 232);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.sidebar:hover{
+    left: 0px;
+    background-color: rgb(190, 222, 245);
+}
+.topbar{
+    height: 110px;
+    width: 93.5%;
+    padding: 5px;
+    border: 2px solid black;
+    position: absolute;
+    top: -70px;
+    left: 69px;
+    background-color: rgb(63, 145, 232);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.topbar:hover{
+    background-color: rgb(190, 222, 245);
+    color: black;
+}
+.topbar:hover{
+    top: 0px;
+}
+.top-left-bar{
+    height: 40px;
+    width: 70px;
+    border: 2px solid green;
+    background-color: rgb(255, 255, 255);
+   
+}
+.editor-container{
+    position: absolute;
+    top: 57px;
+    left: 87px;
+    z-index: -1;
+    height: 360px;
+    width: 960px;
+    padding: 10px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    background-color: white;
+    font-weight: 100;
+    outline: none;
+    
+}
+.tool-container{
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    border-width: 0px 2px 0px 0px;
+    border-color: rgb(161, 158, 158);
+    border-style: solid;
+    padding: 3px 3px 7px 3px;
+}
+.tools{
+    display: flex;
+    justify-content:space-evenly;
+    column-gap: 5px;
+    align-items: center;
+}
+#font-family{
+    width: 100px;
+    height: 20px;
+}
+#font-size{
+    width: 50px;
+    height: 20px;
+}
+img{
+    padding: 4px;
+    border-radius: 3px;
+}
+.tool-container img:hover{
+    background-color: rgb(233, 232, 232);
+}
+.text-info{
+    position: absolute;
+    top: 417px;
+    left: 88px;
+    width: 959px;
+    background-color: rgb(126, 128, 128);
+    z-index: -1;
+}
+.text-info div{
+    display: inline-block;
+    width: 150px;
+    font-size: 11px;
+    font-weight: normal;
+    color: white;
+}
+.side-tools{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.side-tools:hover{
+    background-color: rgb(179, 178, 178);
+}
